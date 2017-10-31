@@ -1,1 +1,35 @@
-/* css will be placed here */
+#first {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 50;
+    top: 0;
+    bottom: 0;
+    max-height: 300px;
+    max-width: 300px;
+}
+#second {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-height: 300px;
+    max-width: 300px;
+    
+}
+#third {
+    position: absolute;
+    margin: auto;
+    left: 50;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-height: 300px;
+    max-width: 300px;
+}
+h1 {
+ font-size: 48px;
+ text-align: center;
+}
