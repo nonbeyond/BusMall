@@ -1,35 +1,45 @@
-#first {
+#left {
     position: absolute;
     margin: auto;
+    padding: 25px;
     left: 0;
     right: 50;
     top: 0;
     bottom: 0;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 350px;
+    max-width: 350px;
 }
-#second {
+
+#center {
     position: absolute;
     margin: auto;
+    padding: 25px;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    max-height: 300px;
-    max-width: 300px;
-    
+    max-height: 350px;
+    max-width: 350px;
 }
-#third {
+
+#right {
     position: absolute;
     margin: auto;
+    padding: 25px;
     left: 50;
     right: 0;
     top: 0;
     bottom: 0;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 350px;
+    max-width: 350px;
 }
+
 h1 {
- font-size: 48px;
- text-align: center;
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
 }
