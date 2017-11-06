@@ -1,45 +1,51 @@
-#left {
-    position: absolute;
-    margin: auto;
-    padding: 25px;
-    left: 0;
-    right: 50;
-    top: 0;
-    bottom: 0;
-    max-height: 350px;
-    max-width: 350px;
-}
-
-#center {
-    position: absolute;
-    margin: auto;
-    padding: 25px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    max-height: 350px;
-    max-width: 350px;
-}
-
-#right {
-    position: absolute;
-    margin: auto;
-    padding: 25px;
-    left: 50;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    max-height: 350px;
-    max-width: 350px;
+body {
+  background-color: seashell;
+  color: grey;
 }
 
 h1 {
-    font-size: 48px;
-    text-align: center;
+  font-size: 48px;
+  text-align: center;
 }
 
-p {
-    font-size: 16px;
-    text-align: center;
+#display {
+  background-color: salmon;
 }
+
+#left {
+  position: absolute;
+  margin: auto;
+  padding: 25px;
+  border: 20px solid salmon;
+  left: 0;
+  right: 50;
+  top: 0;
+  bottom: 0;
+  max-height: 350px;
+  max-width: 350px;
+}
+
+#center {
+  position: absolute;
+  margin: auto;
+  padding: 25px;
+  border: 20px solid salmon;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: 350px;
+  max-width: 350px;
+}
+
+#right {
+  position: absolute;
+  margin: auto;
+  padding: 25px;
+  border: 20px solid salmon;
+  left: 50;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: 350px;
+  max-width: 350px;
